@@ -8,7 +8,7 @@ public class FirstprojectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FirstprojectApplication.class, args);
-		응애 나 졸려 잠잘거임
+		main ubstrack;
 	}
 
 }
