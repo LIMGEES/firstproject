@@ -36,7 +36,7 @@ public class ArticleController {
         Article saved = aricleRepository.save(article);
         log.info(saved.toString());
         //System.out.println(saved.toString());
-        return "";
+        return "articles/create";
     }
     @GetMapping("/articles/{id}")
     public String show(@PathVariable Long id, Model model){
